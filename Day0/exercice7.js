@@ -1,6 +1,6 @@
 let num1 = 12
 let num2 = 1
-let operator;
+let operator = "-";
 
 switch(operator){
     case "+":
@@ -18,8 +18,9 @@ switch(operator){
         else
             console.log(num1/num2);
         break;
+    
+default:
+    ("unknownumber")
 
 }
-
-
 
