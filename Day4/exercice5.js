@@ -1,6 +1,6 @@
 function tableau1(Array1){
     let resultat = []
-    for(i=0;i<Array1.length;i++){
+    for(let i=0 ; i<Array1.length; i++ ){
         if(!resultat.includes(Array1[i])){
          resultat.push(Array1[i]);
         }
